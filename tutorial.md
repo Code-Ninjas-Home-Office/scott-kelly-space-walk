@@ -266,10 +266,10 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`damagedPanelLeft`, function (
 
 ## Count the fixed solar panels!
 
-Use a **variable** to keep track of how many solar panels were fixed! This number will show at the end of the game.
+Use a **score variable** to keep track of how many solar panels were fixed! This number will show at the end of the game.
 
 - :id card: From ``||info:Info||`` drag ``||info:set score to 0||`` into the bottom of ``||functions(no click):function spaceWalkGame||``.
-- :id card: From ``||info:Info||`` drag a ``||info:change score by 1||`` block into both of the ``||scene(no click):on sprite overlaps tile||`` containers to increase the **variable** for each fixed solar panel.
+- :id card: From ``||info:Info||`` drag a ``||info:change score by 1||`` block into both of the ``||scene(no click):on sprite overlaps tile||`` containers to increase the **score variable** for each fixed solar panel.
 
 ![Logo](https://github.com/Code-Ninjas-Home-Office/game-building-session-tutorials-2024/blob/master/images/CN-Logo.png?raw=true "CN Logo") 
 
